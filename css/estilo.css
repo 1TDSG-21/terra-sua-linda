@@ -1,4 +1,84 @@
-/*div {
+body {
+    font-size: 12px;
+    font-family: helvetica neue, helvetica, arial, sans-serif;
+    font-style:#444;
+}
+
+.container {
+    margin: 0 1128;
+}
+
+a {
+    font-style: #00ccff;
+    /* Remover Hiperlink
+    Decoração do Hiperlink*/
+    font-size: 12px;
+}
+
+p {
+    font-size: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.cabecalho {
+    /*Confirmar!!!*/
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 48px;
+}
+
+.logo {
+    /*Confirmar!!!*/
+    float: left;
+    width: auto;
+}
+
+.menu {
+    float: right;
+    width: auto;
+}
+
+ul {
+    float: right;
+    /*Colocar em linha?
+    Retirar do estilo lista?
+    Hyperlinks?*/
+    font-size: 14px;
+    margin-left: 24px;
+    margin-top: 12px;
+
+}
+
+.banner {
+    height: 450px;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.box {
+    width: 42.5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 48px;
+    padding-right: 48px;
+    position: absolute;
+    position: top 48px;
+    background-color: rgb(55, 0, 255);
+    /*Tamanho e cor dos parágrafos?*/
+}
+
+h1 {
+    margin: 0 auto;
+    font-size: 48px;
+    
+}
+/*Confirmar!!!*/
+
+/* div {
     margin: 20%;
 }
 
@@ -11,4 +91,5 @@
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     
-}/*
+} 
+*/
