@@ -11,10 +11,8 @@
     etc;
 */
 
-div {
 
-    margin: 20%;
-}
+
 
 /*
     Utiizando o seletor ID.
@@ -22,7 +20,7 @@ div {
     Ex: #container{ ... }
 */
 
-#container {
+
     /*
     Aqui estamos adicionando os valores da margem, utilizando a técnica Short Hand.
     Ex formatos Short Hand:border: 
@@ -31,8 +29,7 @@ div {
     Ex: margin: 20px 10px;
 
     */
-    margin: 0% 20%;
-}
+  
 
 /*
     Aqui utilizaremos o seletor CLASS.
