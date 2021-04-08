@@ -11,12 +11,14 @@
     ex: header{...}
     etc;
     O seletor ID é utilizado usando o simbolo (#) seguindo do nome escolhido 
-*/
 
     div{
         
         margin: 20%;
     }
+*/
+
+    
 
     /*
             aqui nos estamos adicionando os valores da margin
@@ -37,10 +39,7 @@
             TOP/BOTTOM RIGHT/LIGHT
         */
 
-    #container{
-        
-        margin: 0% 20%;
-        }
+    
 
 
     /*
@@ -49,7 +48,7 @@
         é necessario usar o( . ) 
         antes do nome escolhido classe
     */
-
+    /*
     .text-format{
         color:#ff6347;
         font-size: 20px;
@@ -62,3 +61,4 @@
         text-decoration: underline;
         text-align: center;
     }
+    */
