@@ -2,3 +2,63 @@
     Este é um comentario em CSS
 */
 
+/*
+    utilizando o seletor generico HTML
+    O seletor generico são os proprios elementos HTML.
+    ex: p{...}
+    ex: div{...}
+    ex: span{...}
+    ex: header{...}
+    etc;
+    O seletor ID é utilizado usando o simbolo (#) seguindo do nome escolhido 
+*/
+
+    div{
+        
+        margin: 20%;
+    }
+
+    /*
+            aqui nos estamos adicionando os valores da margin
+            utilizando a tecninca SHORT HAND    
+            ex:margin:20px;
+            Outro formatos short hand
+            sempre no sentido horario
+            utilizando os valores:
+            ex:margin-top: ;
+            ex:margin-right: ;
+            ex:margin-left: ;
+            ex:margin-bottom: ;
+            estes formatos podem ser utilizados para todas as propridades
+            padding
+            border
+            etc;
+
+            TOP/BOTTOM RIGHT/LIGHT
+        */
+
+    #container{
+        
+        margin: 0% 20%;
+        }
+
+
+    /*
+        aqui utilizamos o seletor class
+        para utilizar o seltor class 
+        é necessario usar o( . ) 
+        antes do nome escolhido classe
+    */
+
+    .text-format{
+        color:#ff6347;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .text-generic{
+        font-weight: bold;
+        letter-spacing: 5px;
+        text-decoration: underline;
+        text-align: center;
+    }
