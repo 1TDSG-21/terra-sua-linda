@@ -1,6 +1,6 @@
 body {
   font-size: 12px;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   color: #444;
 }
 .container {
@@ -70,6 +70,7 @@ p {
 
 img {
   max-width: 100%;
+  border-radius: 10px;
 }
 .rodape {
     width: 100%;
