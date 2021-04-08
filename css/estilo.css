@@ -11,11 +11,13 @@
     Ex: span{ ... }
     Ex: header{ ... }
     etc;
-*/
 
+    
 div {
     margin: 20%;
 }
+*/
+
 
 /*
     Utilizando o seletor ID.
@@ -34,8 +36,9 @@ div {
         Ex:margin:20px 10px;
         Estes formatos podem ser utilizado para todas as propriedades:
         Ex: padding, border, etc;
-    */
     margin: 0% 20%;
+        */
+
 }
 
 /*
