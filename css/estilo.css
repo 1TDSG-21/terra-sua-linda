@@ -11,11 +11,12 @@
    Ex: span{ ... }
    Ex: header{ ... }
    etc;
-*/
+
 
 div {
     margin: 20%;
 }
+*/
 
 /*
    Utlizando o seletor genérico HTML
@@ -34,8 +35,9 @@ div {
        Ex:margin:20px 10px;
        Ests formatos podem ser utlizado para toas as propriedades:border:
        Ex: padding, border, etc;
-    */
+    
     margin: 0% 20%;
+    */
 }
 
 /*
@@ -52,6 +54,6 @@ div {
 .text-generic {
     font-weight: bold;
     letter-spacing: 5px;
-    text decoration: underline;
-    text-align: 
+    text-decoration: underline;
+    text-align: center;
 }
