@@ -1,3 +1,57 @@
 /*
- Este é um comentário
+    Este é um comentário em CSS.
+
+ */
+
+ /*
+   Utlizando o seletor genérico HTML
+   O seletor genérico são os próprios elementos HTML.
+   Ex: p{ ... }
+   Ex: div{ ... }
+   Ex: span{ ... }
+   Ex: header{ ... }
+   etc;
 */
+
+div {
+    margin: 20%;
+}
+
+/*
+   Utlizando o seletor genérico HTML
+   O seletor ID é utlizado usando o símbolo ( # ) seguido o nome escolhido.
+   Ex: #container { ... }
+*/
+
+#container {
+
+    /*
+       Aqui estamos adiconando os valores da margem, utilizando a técnica short Hand.
+       Ex:margin:20px;
+       Outros formatos Short Hand;
+       Sempre  no sentido horário utlizando os valores:
+       TOP/ BOTTOM LEFT/RIGHT
+       Ex:margin:20px 10px;
+       Ests formatos podem ser utlizado para toas as propriedades:border:
+       Ex: padding, border, etc;
+    */
+    margin: 0% 20%;
+}
+
+/*
+   Aqui utilizarmos o seletor CLASS.
+   para utlizar o seletro CLASS é necessário o ( . ) antes do nome escolhido para a classe.
+*/
+
+.text-format {
+    color:#ff6347;
+    font-size: 20px;
+    font-family: arial, Helvetica, sans-serif;
+}
+
+.text-generic {
+    font-weight: bold;
+    letter-spacing: 5px;
+    text decoration: underline;
+    text-align: 
+}
