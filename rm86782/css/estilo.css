@@ -2,3 +2,8 @@
     Utilizando o seletor genérico HTML
     O seletor genérico são os próprios elementos HTML, ou seja, as tags
 */
+body {
+    font-size: 12px;
+    font-family: 'Haveltica neue', Helvetica, sans-serif;
+    color: #444;
+}
