@@ -25,3 +25,7 @@ a:hover {
 p {
     font-size: 20px;
 }
+
+img {
+    max-width: 100%;
+}
