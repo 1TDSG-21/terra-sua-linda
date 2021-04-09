@@ -18,6 +18,10 @@ body {
     margin: 40px 0px;
 }
 
+.logo {
+    float: left;
+}
+
 a {
     color: #00ccff;
     text-decoration: none;
