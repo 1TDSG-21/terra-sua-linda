@@ -32,6 +32,19 @@ body {
     position: relative;
 }
 
+.box {
+    width: 45.2px;
+    padding: 30px 48px;
+    position: absolute;
+    margin-top: 48px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.box p {
+    font-size: 20px;
+    color: #fff;
+}
+
 ul li {
     float: right;
     display: inline;
