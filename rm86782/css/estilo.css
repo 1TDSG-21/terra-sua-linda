@@ -45,6 +45,14 @@ body {
     color: #fff;
 }
 
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 48px;
+    font-weight: 200;
+    color: #fff;
+}
+
 ul li {
     float: right;
     display: inline;
