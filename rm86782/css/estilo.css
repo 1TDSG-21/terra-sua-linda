@@ -35,6 +35,11 @@ ul li {
     list-style: none;
 }
 
+ul li a {
+    font-size: 20px;
+    color: #999;
+}
+
 a {
     color: #00ccff;
     text-decoration: none;
