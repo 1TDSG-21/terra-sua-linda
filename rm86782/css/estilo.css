@@ -2,23 +2,3 @@
     Utilizando o seletor genérico HTML
     O seletor genérico são os próprios elementos HTML, ou seja, as tags
 */
-div {
-    margin: 20%;
-}
-
-#container {
-    margin: 0% 20%;
-}
-
-.text-format {
-    color: #ff6347;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.text-generic {
-    font-weight: bold;
-    letter-spacing: 5px;
-    text-decoration: underline;
-    text-align: center;
-}
