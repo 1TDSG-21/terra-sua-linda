@@ -7,3 +7,7 @@ body {
     font-family: 'Haveltica neue', Helvetica, sans-serif;
     color: #444;
 }
+
+.container {
+    max-width: 1128px;
+}
