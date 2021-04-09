@@ -11,3 +11,9 @@ body {
 .container {
     max-width: 1128px;
 }
+
+a {
+    color: #00ccff;
+    text-decoration: none;
+    font-size: 12px;
+}
