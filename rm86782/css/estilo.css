@@ -33,10 +33,10 @@ body {
 }
 
 .box {
-    width: 45.2px;
+    width: 42.5%;
     padding: 30px 48px;
     position: absolute;
-    margin-top: 48px;
+    top: 48px;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
