@@ -1,8 +1,5 @@
 /*
     Este é um comentario em CSS
-*/
-
-/*
     utilizando o seletor generico HTML
     O seletor generico são os proprios elementos HTML.
     ex: p{...}
@@ -16,11 +13,6 @@
         
         margin: 20%;
     }
-*/
-
-    
-
-    /*
             aqui nos estamos adicionando os valores da margin
             utilizando a tecninca SHORT HAND    
             ex:margin:20px;
@@ -36,19 +28,12 @@
             border
             etc;
 
-            TOP/BOTTOM RIGHT/LIGHT
-        */
-
-    
-
-
-    /*
+        TOP/BOTTOM RIGHT/LIGHT
         aqui utilizamos o seletor class
         para utilizar o seltor class 
         é necessario usar o( . ) 
         antes do nome escolhido classe
-    */
-    /*
+    
     .text-format{
         color:#ff6347;
         font-size: 20px;
@@ -62,3 +47,113 @@
         text-align: center;
     }
     */
+
+
+
+
+
+
+    body {
+        font-size: 12px;
+        font-family: 'Haveltica neue', Arial, Helvetica, sans-serif;
+        color: #444;
+    }
+
+    #container{
+        max-width:1128px ;
+    }
+
+    a{
+        color: #00ccff;
+        text-decoration:none;
+        size: 12px;
+    }
+
+    p{
+        size: 20px;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    .cabecalho{
+        width: 100%;
+        height: 48px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .logo{
+        float: left;
+    }
+
+    .menu{
+        float: right;
+    }
+
+    ul li{
+        float: right;
+        display: inline;
+        font-size: 14px;
+        margin-left: 24px;
+        margin-top: 12px;
+        list-style: none;
+    } 
+
+    ul li a{
+        font-size: 20px;
+        color: #999;
+    }
+
+    .banner{
+        height: 450px;
+        margin-bottom: 35px;
+        position: relative;
+    }
+
+    .box{
+        width: 42.5%;
+        padding: 30px 48px;
+        position: absolute;
+        top: 48px;
+        background-color:  rgba(0,0,0,0.5);
+    }
+
+    .box p{
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .box h1{
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 48px;
+        font-weight: 200;
+        color: #fff;
+    }
+
+    .rodape{
+        width: 100%;
+        margin-bottom: 30px;
+        float: left;
+        font-size: 30px;
+    }
+
+    .rodape p{
+        margin-bottom: 0;
+    }
+
+    .rodape small{
+        font-size: 18px;
+    }
+
+    .rodape a{
+        font-size: 15px;
+    }
+
+    
