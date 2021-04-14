@@ -1,51 +1,28 @@
-/*
-    Este é um comentário em CSS.
+#corpo {    font-size: 12px;
+            font-family: helvetica;
+            color:#444
+}
 
-*/
+#container { max-width: 1128px;
+}
 
-/*
-    Utilizando o seletor genérico HTML
-    O seletor genérico são os próprios elementos HTML.
-    Ex: p{ ... }
-    Ex: div{ ... }
-    Ex: span{ ... }
-    Ex: header{ ... }
-    etc;
+a {font-size: 12px;
+    text-decoration: none;
+    color:#00ccff;
+    cursor: underline;  
+}
 
+p {
+    font-size: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.cabecalho {
     
-div {
-    margin: 20%;
 }
-*/
-
-
-/*
-    Utilizando o seletor ID.
-    O seletor ID é utilizado usando o simbolo ( # ) seguido do nome escolhido.
-    Ex: #container{ ... }
-    */
-
-#container {
-
-    /*
-        Aqui estamos adicionando os valores da margem, utilizando a técnica Short Hand.
-        Ex:margin:20px;
-        Outros formatos Short Hand:
-        Sempre no sentido horário utilizando os valores:
-        TOP / BOTTOM  LEFT/RIGHT
-        Ex:margin:20px 10px;
-        Estes formatos podem ser utilizado para todas as propriedades:
-        Ex: padding, border, etc;
-    margin: 0% 20%;
-        */
-
-}
-
-/*
-    Aqui utilizaremos o seletor CLASS.
-    Para utilizar o seleotor CLASS é necessário usar o ( . ) antes do nome escolhido para a classe. 
-*/
-
 .text-format {
     color: #ff6347;
     font-size: 20px;
