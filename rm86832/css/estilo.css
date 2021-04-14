@@ -79,5 +79,20 @@ li {
 }
 
 .rodape {
-    
+    width: 100%;
+    margin-bottom: 30px;
+    float: left;
+    font-size: 30px;
+}
+
+.small {
+    font-size: 18px;
+}
+
+.rodape p {
+    margin-bottom: 0;
+}
+
+.rodape a {
+    font-size: 15px;
 }
