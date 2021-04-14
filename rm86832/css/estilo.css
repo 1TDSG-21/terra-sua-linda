@@ -1,9 +1,9 @@
-#corpo {    font-size: 12px;
+body {    font-size: 12px;
             font-family: helvetica;
             color:#444
 }
 
-#container { max-width: 1128px;
+.container { max-width: 1128px;
 }
 
 a {font-size: 12px;
@@ -46,4 +46,38 @@ li {
 .cabecalho a {
     font-size: 20px;
     color: #999;
+}
+
+.banner {
+    height: 450px;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.box {
+    width: 42.5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 48px;
+    padding-right: 48px;
+    position: absolute;
+    top: 48px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.box p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.box h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 48px;
+    font-weight: 200;
+    color: #fff;
+}
+
+.rodape {
+    
 }
