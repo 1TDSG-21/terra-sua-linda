@@ -42,6 +42,20 @@ a {
 ●	Para todos os elementos <a> determine os seguintes estilos:
 | Determine que ao passar o mouse os hyperlinks tenham sua decoração alterada para underline.
 */
+p {
+    font-size: 20px;
+}
+
+/*
+PSEUDO CLASSE
+HOVER
+LINK
+ACTIVE
+VISITED
+*/
+a:hover {
+    text-decoration: underline;
+}
 
 /*
 ●	Para todas as imagens determine os seguintes estilos:
@@ -52,6 +66,16 @@ a {
 | Margem do topo de 40px.
 | Margem do rodapé de 40px.
 */
+img {
+    max-width: 100%;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 48px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 
 /*
 ●	Para a classe logo determine os seguintes estilos:
@@ -59,19 +83,38 @@ a {
 ●	Para a classe menu determine os seguintes estilos:
 | Faça o elemento flutuar para a direita.
 */
+.logo {
+    float: left;
+}
+
+.menu {
+    float: right;
+}
 
 /*
 ●	Para os items da lista determine os seguintes estilos:
-| Faça com que a lista flutue para a direita.
 | Coloque os itens em linha.
 | Tamanho do texto 14px.
 | Margem esquerda 24px;
 | Margem topo 12px;
-| Retire o estilo de lista.
 •	Para os hyperlinks dos itens da lista determine os seguintes estilos.
 | coloque a fonte do texto em 20px.
 | coloque a cor do texto como #999.
 */
+
+
+
+.menu li {
+    display: inline;
+    font-size: 14px;
+    margin-left: 24px;
+    margin-top: 12px;
+}
+
+.menu a {
+    font-size: 20px;
+    color: #999;
+}
 
 /*
 ●	Para a classe banner determine os seguintes estilos:
@@ -85,7 +128,22 @@ a {
 | Posição top 48px;
 | Fundo com cor rgba(0,0,0,0.5), utilize o sistema de cores numérico RGBA.
 */
+.banner {
+    height: 450px;
+    margin-bottom: 35px;
+    position: relative
+}
 
+.box {
+    width: 42.5%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 48px;
+    padding-left: 48px;
+    position: absolute;
+    top: 48px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 
 /*
 ●	Para os parágrafos descendentes de box determine os seguintes estilos:
@@ -98,6 +156,7 @@ a {
 | Espessura da fonte de 200.
 | Cor do texto #fff.
 */
+
 
 /*
 ●	Para a classe rodape determine os seguintes estilos:
