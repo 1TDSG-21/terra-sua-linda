@@ -1,11 +1,20 @@
 /*
+utilizando font do GOOGLE
+*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+/*
 ●	Faça o apontamento do arquivo css no HTML.
 ●	Para o body determine os seguintes estilos:
 | Tamanho do texto em 12px .
 | Familia da fonte - Helvetica Neue, Helvetica, Arial ou sem serifa.
 | Cor do texto #444
 */
-
+body {
+    font-size: 12px;
+    font-family: 'Oswald', 'Heveltica Neue', Arial, Helvetica, sans-serif;
+    color: #444;
+}
 
 /*
 ●	Para a classe container determine os seguintes estilos:
@@ -15,7 +24,17 @@
 | Retire o estilo de hyperlink de todos os elementos.
 | Tamanho do texto em 12px.
 */
+#container {
+    max-width: 1128px;
 
+}
+
+a {
+    color: #00ccff;
+    text-decoration: none;
+    font-size: 12px;
+
+}
 
 /*
 ●	Para os todos os parágrafos determine os seguintes estilos:
