@@ -1,0 +1,98 @@
+/*
+●	Faça o apontamento do arquivo css no HTML.
+●	Para o body determine os seguintes estilos:
+| Tamanho do texto em 12px .
+| Familia da fonte - Helvetica Neue, Helvetica, Arial ou sem serifa.
+| Cor do texto #444
+*/
+
+
+/*
+●	Para a classe container determine os seguintes estilos:
+| Largura máxima de 1128px.
+●	Para todos os elementos <a> determine os seguintes estilos:
+| Cor do texto #00ccff.
+| Retire o estilo de hyperlink de todos os elementos.
+| Tamanho do texto em 12px.
+*/
+
+
+/*
+●	Para os todos os parágrafos determine os seguintes estilos:
+| Tamanho do texto 20px.
+●	Para todos os elementos <a> determine os seguintes estilos:
+| Determine que ao passar o mouse os hyperlinks tenham sua decoração alterada para underline.
+*/
+
+/*
+●	Para todas as imagens determine os seguintes estilos:
+| Largura máxima de 100%;
+●	Para a classe cabecalho determine os seguintes estilos:
+| Largura de 100%.
+| Altura de 48px.
+| Margem do topo de 40px.
+| Margem do rodapé de 40px.
+*/
+
+/*
+●	Para a classe logo determine os seguintes estilos:
+| Faça o elemento flutuar para a esquerda.
+●	Para a classe menu determine os seguintes estilos:
+| Faça o elemento flutuar para a direita.
+*/
+
+/*
+●	Para os items da lista determine os seguintes estilos:
+| Faça com que a lista flutue para a direita.
+| Coloque os itens em linha.
+| Tamanho do texto 14px.
+| Margem esquerda 24px;
+| Margem topo 12px;
+| Retire o estilo de lista.
+•	Para os hyperlinks dos itens da lista determine os seguintes estilos.
+| coloque a fonte do texto em 20px.
+| coloque a cor do texto como #999.
+*/
+
+/*
+●	Para a classe banner determine os seguintes estilos:
+| Altura 450px.
+| Margem rodapé 35px.
+| Posição relativa.
+●	Para a classe box determine os seguintes estilos:
+| Largura 425px.
+| Preenchimento[padding] superior e inferior de 30px e direito e esquerdo de  48px.
+| Posição absoluta.
+| Posição top 48px;
+| Fundo com cor rgba(0,0,0,0.5), utilize o sistema de cores numérico RGBA.
+*/
+
+
+/*
+●	Para os parágrafos descendentes de box determine os seguintes estilos:
+| Tamanho do texto em 20px.
+| Cor do texto #fff.
+●	Para o elemento <h1> determine os seguintes estilos:
+| Margem topo 0.
+| Margem rodapé 0.
+| Tamanho do texto 48px.
+| Espessura da fonte de 200.
+| Cor do texto #fff.
+*/
+
+/*
+●	Para a classe rodape determine os seguintes estilos:
+| Largura 100%.
+| Margem rodapé 30px.
+| Faça o elemento flutuar para a esquerda.
+| Tamanho do texto em 30px;
+●	Para os parágrafos descendentes da classe rodape determine os seguintes estilos:
+| Margem rodapé 0.
+*/
+
+/*
+●	Para os smalltag descendentes da classe rodape determine os seguintes estilos:
+| Tamanho do texto em 18px.
+●	Para os hyperlinks descendentes da classe rodape determine os seguintes estilos:
+| Tamanho do texto em 15px.
+*/
